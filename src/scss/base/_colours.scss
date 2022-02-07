@@ -1,0 +1,36 @@
+//Colours
+// color palette - SCSS RGB
+// Primary
+$color-1: hsl(238, 40%, 52%);
+$color-2: hsl(358, 79%, 66%);
+$color-3: hsl(239, 57%, 85%);
+$color-4: hsl(357, 100%, 86%);
+$color-5: hsl(212, 24%, 26%);
+$color-6: hsl(211, 10%, 45%);
+$color-7: hsl(223, 19%, 93%);
+$color-8: hsl(228, 33%, 97%);
+$color-9: rgb(255, 255, 255);
+// Neutral
+$neutral-1: rgba(0 , 0, 0, 1);
+$neutral-2: rgba(255 , 255, 255, 1);
+$neutral-3: rgba(128, 128, 128, 1);
+
+$main-title: $neutral-1;
+$secondary-title: $neutral-1;
+$paragraph: $color-6;
+//border
+$border: rgba(103, 114, 126, 0.15); 
+//link
+$link: $color-1;
+//icon
+$icon: $neutral-2;
+//hover
+$border-hover: rgba(103, 114, 126, 0.6); 
+$link-hover: $color-6;
+$button-hover: $color-2;
+// background
+$comments-background: $color-7; 
+$shadow:rgba(0, 0, 0, 0.6);
+//button
+$button-plus-minus: $color-7;  
+$button-send: $color-1; 

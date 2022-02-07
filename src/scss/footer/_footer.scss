@@ -1,0 +1,28 @@
+@use "base/variables" as v;
+@use "base/colours" as c;
+@use "base/mixins" as m;
+
+.footer {
+  padding: 0 3rem 3rem;
+  background-color: c.$comments-background;
+}
+
+.footer__attribution {
+  display: flex;
+  justify-content: center;
+  p {
+    color: c.$neutral-1;
+    text-align: center;
+    margin-right: 1rem;
+    a {
+      color: c.$link;
+      font-size: 1.2rem;
+      &:hover {
+        color: c.$link-hover;
+      }
+    }
+    &:last-of-type{
+      margin-right: 0;
+    }
+  }
+}
